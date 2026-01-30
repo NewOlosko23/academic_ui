@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://academiasupportcenter.com/sitemap.xml
+
+# Block access to admin areas
+Disallow: /admin/
+Disallow: /client/dashboard/
+
+# Block access to sensitive routes
+Disallow: /reset-password/
+Disallow: /verify-email/
+
+# Allow search engines to crawl public content
+Allow: /order
+Allow: /how-it-works
+Allow: /help
+Allow: /terms-of-service
+Allow: /privacy-policy
+Allow: /articles
+Allow: /contact
+Allow: /surveys
+Allow: /track
+Allow: /payment/verify
+
+# Crawl delay (optional, adjust as needed)
+Crawl-delay: 1
